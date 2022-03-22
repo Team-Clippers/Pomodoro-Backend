@@ -1,7 +1,21 @@
 [{
-    "task": "study",
+    "id": "study",
 	"workDuration": 12,
 	"shortBreakDuration": 6,
 	"numOfPomsTillBreak": 9,
 	"longBreakDuration": 9
+}, 
+{
+    "id": "eating",
+	"workDuration": 10,
+	"shortBreakDuration": 6,
+	"numOfPomsTillBreak": 9,
+	"longBreakDuration": 2
+}, 
+{
+    "id": "break",
+	"workDuration": 2,
+	"shortBreakDuration": 16,
+	"numOfPomsTillBreak": 9,
+	"longBreakDuration": 3
 }]

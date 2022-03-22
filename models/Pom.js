@@ -3,7 +3,7 @@ const mongoose = require('../db/connection');
 
 // make a new schema with 2 properties, and assign it to a variable
 const PomSchema = new mongoose.Schema({
-	task: String,
+	id: String,
 	workDuration: Number,
 	shortBreakDuration: Number,
 	numOfPomsTillBreak: Number,
@@ -12,6 +12,6 @@ const PomSchema = new mongoose.Schema({
 
 // instantiate the model, calling it "Pom" and with the schema we just made
 const Pom = mongoose.model('Pom', PomSchema);
-console.log(Pom)
+// console.log(Pom)
 // export the newly created model
 module.exports = Pom;

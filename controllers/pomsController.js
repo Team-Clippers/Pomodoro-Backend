@@ -21,6 +21,28 @@ router.get('/', async (req, res) => {
 	}
 });
 
+// GET /poms/:task
+
+router.get('/:id', async (req, res) => {
+    try {
+        const pom = await Pom.find({id: req.params.id});
+        if (pom) {
+            res.json(pom)
+        } else {
+            res.sendStatus(404);
+        }
+    } catch (err) {
+        console.log(err)
+    }
+})
+
+
+// POST /poms
+
+// PUT /poms/:task
+
+//DELETE /poms/:task
+
 
 // Export this router object so that it is accessible when we require the file elsewhere
 module.exports = router;
