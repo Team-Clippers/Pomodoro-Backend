@@ -1,3 +1,4 @@
+// pom
 const Pom = require('../models/Pom');
 const pomData = require('./pom.json');
 Show.deleteMany({})
@@ -7,3 +8,5 @@ Show.deleteMany({})
 	.finally(() => {
 		process.exit();
 	});
+
+	// user
