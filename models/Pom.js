@@ -3,11 +3,11 @@ const mongoose = require('../db/connection');
 
 // make a new schema with 2 properties, and assign it to a variable
 const PomSchema = new mongoose.Schema({
-	id: String,
-	workDuration: Number,
-	shortBreakDuration: Number,
-	numOfPomsTillBreak: Number,
-	longBreakDuration: Number,
+	name: String,
+	workLength: Number,
+	shortBreak: Number,
+	sessionsBreak: Number,
+	longBreak: Number,
 });
 
 // instantiate the model, calling it "Pom" and with the schema we just made

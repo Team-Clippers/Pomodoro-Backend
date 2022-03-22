@@ -1,21 +1,21 @@
 [{
-    "id": "study",
-	"workDuration": 12,
-	"shortBreakDuration": 6,
-	"numOfPomsTillBreak": 9,
-	"longBreakDuration": 9
+    "name": "study",
+	"workLength": 12,
+	"shortBreak": 6,
+	"sessionsBreak": 9,
+	"longBreak": 9
 }, 
 {
-    "id": "eating",
-	"workDuration": 10,
-	"shortBreakDuration": 6,
-	"numOfPomsTillBreak": 9,
-	"longBreakDuration": 2
+    "name": "eating",
+	"workLength": 10,
+	"shortBreak": 6,
+	"sessionsBreak": 9,
+	"longBreak": 2
 }, 
 {
-    "id": "break",
-	"workDuration": 2,
-	"shortBreakDuration": 16,
-	"numOfPomsTillBreak": 9,
-	"longBreakDuration": 3
+    "name": "break",
+	"workLength": 2,
+	"shortBreak": 16,
+	"sessionsBreak": 9,
+	"longBreak": 3
 }]
