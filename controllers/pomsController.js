@@ -53,6 +53,16 @@ router.post('/', async (req, res, next) => {
 
 // PUT /poms/:task
 
+router.put('/:id', async (req, res) => {
+    try {
+        const updatedPom = req.body;
+        const updatePom = await Pom.findOneAndUpdate({ id: req.params.id }, updatedPom, { new: true });
+        res.json(updatePom);
+    } catch (err) {
+        console.log(err)
+    }
+})
+
 //DELETE /poms/:task
 
 
