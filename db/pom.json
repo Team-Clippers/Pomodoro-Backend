@@ -1,0 +1,7 @@
+[{
+    "task": "study",
+	"workDuration": 12,
+	"shortBreakDuration": 6,
+	"numOfPomsTillBreak": 9,
+	"longBreakDuration": 9
+}]

@@ -12,8 +12,6 @@ const db = mongoose.connection;
 // Connect to Mongo
 mongoose.connect(mongoURI, {
 	useNewUrlParser: true,
-	useUnifiedTopology: true,
-	useCreateIndex: true,
 });
 
 // Connection Error/Success - optional but can be helpful

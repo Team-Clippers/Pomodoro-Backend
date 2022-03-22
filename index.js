@@ -19,7 +19,8 @@ app.get('/', (req, res) => {
 	res.redirect('/poms');
 });
 /* START CONTROLLERS HERE */
-
+const pomsController = require('./controllers/pomsController');
+app.use('/poms/', pomsController);
 /* END CONTROLLERS HERE */
 
 //=============================================================================
