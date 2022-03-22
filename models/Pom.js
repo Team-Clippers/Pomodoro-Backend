@@ -12,6 +12,6 @@ const PomSchema = new mongoose.Schema({
 
 // instantiate the model, calling it "Pom" and with the schema we just made
 const Pom = mongoose.model('Pom', PomSchema);
-
+console.log(Pom)
 // export the newly created model
 module.exports = Pom;
