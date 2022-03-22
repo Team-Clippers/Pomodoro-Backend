@@ -39,6 +39,18 @@ router.get('/:id', async (req, res) => {
 
 // POST /poms
 
+router.post('/', async (req, res, next) => {
+	try {
+		// 1. Use the data in the req body to create a new pom
+		const newPom = await Pom.create(req.body);
+		// 2. If the create is successful, send back the record that was inserted, specifying 201 status for Created
+		res.status(201).json(newPom);
+	} catch (err) {
+		// 3. If there was an error, pass it on!
+		next(err);
+	}
+});
+
 // PUT /poms/:task
 
 //DELETE /poms/:task
