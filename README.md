@@ -31,8 +31,8 @@
 ## Contribution Guidelines
 
 How to contribute 
-> Contritbution to the app is highly recommended! If you would like to contribute code, follow the instructions to install the app. Then rpoceed to make changes to a dev branch and submit a pull request. 
+- Contritbution to the app is highly recommended! If you would like to contribute code, follow the instructions to install the app. Then rpoceed to make changes to a dev branch and submit a pull request. 
 How to identify bugs 
-> To identify bugs, submit an issue on the git respository. Please detail the bug itself, if you are aware of a fix. 
+- To identify bugs, submit an issue on the git respository. Please detail the bug itself, if you are aware of a fix. 
 How to propose improvements 
-> To propose improvements, submit an issue on the git repository
+- To propose improvements, submit an issue on the git repository
