@@ -99,7 +99,7 @@ const TaskSchema = new.mongoose.Schema ({
 
 ### How to contribute
 
-- Contritbution to the app is highly recommended! If you would like to contribute code, follow the instructions to install the app. Then proceed to make changes to a dev branch and submit a pull request.
+- Contribution to the app is highly recommended! If you would like to contribute code, follow the instructions to install the app. Then proceed to make changes to a dev branch and submit a pull request.
 
 ### How to identify bugs
 

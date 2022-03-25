@@ -1,13 +1,8 @@
-// require the Express module
 const express = require('express');
-// instantiate a router -- this will hold all the logic
-// for the URLs + methods for this resource
 const router = express.Router();
-// import the model
 const Pom = require('../models/Pom');
 
-// Add routes to the router object
-// Index:
+// GET /poms
 router.get('/', async (req, res) => {
 	try {
 		await Pom.find().then((poms) => {
@@ -19,7 +14,6 @@ router.get('/', async (req, res) => {
 });
 
 // GET /poms/:task
-
 router.get('/:id', async (req, res) => {
 	try {
 		const pom = await Pom.find({ name: req.params.id });
@@ -77,12 +71,5 @@ router.delete('/:id', async (req, res) => {
 		console.log(err);
 	}
 });
-// router.delete('/:id', (req, res) => {
-// 	Pom.deleteOne({ name: req.params.id }).then((delPom) => {
-// 		res.json(delPom);
-// 	});
-// });
 
-
-// Export this router object so that it is accessible when we require the file elsewhere
 module.exports = router;
