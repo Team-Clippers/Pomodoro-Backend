@@ -12,7 +12,7 @@ Members:
 
 ## Description
 
-This is a Pomodoro App that helps optimize study and break times through the use of Pomodoro intervals. The structured work and break timer helps students stay on task. The schedule breaks helps increase productive for longer periods. Pomodoro interval data is accessed in the front end, and the data gets sent to the back end for statistics and analysis.
+This is a Pomodoro App that helps optimize study and break times through the use of Pomodoro intervals. The structured work and break timer helps students stay on task. The schedule breaks helps increase productivity for longer periods. Pomodoro interval data is accessed in the front end, and the data gets sent to the back end for statistics and analysis.
 
 This backend fetches API here:
 
